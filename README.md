@@ -17,3 +17,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 # folder Structure
+
+# Dependencies
+installed dependencies like react-router, redux, @reduxjs/toolkit, axios, etc.

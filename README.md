@@ -12,11 +12,59 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 
-
+--------------------------------------------------------------------------------------------------------
+# Step-1
 # Tailwind set-up
 
 
+--------------------------------------------------------------------------------------------------------
+
+# Step-2
 # folder Structure
 
+
+--------------------------------------------------------------------------------------------------------
+
+# Step-3
 # Dependencies
 installed dependencies like react-router, redux, @reduxjs/toolkit, axios, etc.
+
+--------------------------------------------------------------------------------------------------------
+
+# Step-4
+
+# create a Store
+# Store.jsx file is a central state management.
+A store is like a "big container" that holds the global state of your React app.
+
+It allows React components to read the state and dispatch actions to update it.
+
+Without a store, Redux cannot work — it’s the heart of the state management system.
+
+# Why do we use store.jsx in Redux Toolkit?
+When using Redux Toolkit (RTK), we create the store in one separate file so that:
+
+1. Centralized State Management → All slices (like userSlice, cartSlice, authSlice) are combined in one store.
+
+2. Clean Code Structure → Instead of mixing store logic with components, we keep it separate.
+
+3. Reusability → Store can be imported anywhere (like in index.jsx to wrap <Provider>).
+
+4. Configuration → Redux Toolkit gives us configureStore(), which automatically:
+    . Combines reducers.
+    . Adds good default middlewares (like Redux Thunk).
+    . Enables Redux DevTools extension.
+
+--------------------------------------------------------------------------------------------------------
+
+# Step -5 : main.jsx
+
+Entry point for React.
+
+Purpose:
+Import App.jsx
+Wrap with Redux Store Provider (Provider store={store})
+
+--------------------------------------------------------------------------------------------------------
+
+# step -6 

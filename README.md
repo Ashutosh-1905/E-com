@@ -98,3 +98,11 @@ Each slice manages a part of the state (auth, cart).
 Components can:
 # dispatch actions → change state
 # useSelector → read state
+
+
+# step - 10 
+Import authReducer in store store.jsx
+auth:authReducer,
+
+# Step -11  Api Layer
+

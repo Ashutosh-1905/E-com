@@ -86,3 +86,15 @@ ProtectedRoute → ensures only authorized users see certain routes.
 
 --------------------------------------------------------------------------------------------------------
 
+# STEP - 9 State Management (Redux Slices for Auth & Cart)
+
+features/ folder (AuthSlice.jsx, CartSlice.jsx) manages global state for authentication and shopping cart.
+
+# What Redux Toolkit Does
+
+configureStore (already in store/Store.jsx) combines all slices.
+Each slice manages a part of the state (auth, cart).
+
+Components can:
+# dispatch actions → change state
+# useSelector → read state

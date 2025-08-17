@@ -22,7 +22,7 @@ const AppRouter = () => {
            element: <Login />,
          },
 
-         {
+              {
            path: "/register",
            element: <Register />,
          },

@@ -9,6 +9,7 @@ import CartScreen from "../screens/mainScreens/CartScreen";
 import AdminLayout from "../layouts/AdminLayout";
 import AdminHomeScreen from "../screens/adminScreens/AdminHomeScreen";
 import AllProductsScreen from "../screens/adminScreens/AllProductsScreen";
+import ProtectedRoute from "../components/ProtectedRoute";
 
 const AppRouter = () => {
    const router = createBrowserRouter([
@@ -30,7 +31,11 @@ const AppRouter = () => {
 
      {
        path: "/main",
-       element: <MainLayout />,
+       element: (
+         <ProtectedRoute>
+           <MainLayout />
+         </ProtectedRoute>
+       ),
        children: [
          {
            index: true,

@@ -75,6 +75,14 @@ Setup Data Routing with createBrowserRouter
 # Step-7 : Layouts Structure
 Each layout (layouts/) defines a common UI wrapper for a group of pages.
 
+Outlet → placeholder where child route renders.
+AuthLayout may only render <Outlet /> + simple header.
+AdminLayout can include an admin sidebar + <Outlet />.
+
 --------------------------------------------------------------------------------------------------------
 
-#Step-8 : 
+# Step-8 : Protected Route 
+ProtectedRoute → ensures only authorized users see certain routes.
+
+--------------------------------------------------------------------------------------------------------
+

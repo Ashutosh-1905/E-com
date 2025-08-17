@@ -67,4 +67,7 @@ Wrap with Redux Store Provider (Provider store={store})
 
 --------------------------------------------------------------------------------------------------------
 
-# step -6 
+# step -6 : AppRouter.jsx:
+Setup Data Routing with createBrowserRouter
+
+

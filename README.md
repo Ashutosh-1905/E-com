@@ -70,4 +70,11 @@ Wrap with Redux Store Provider (Provider store={store})
 # step -6 : AppRouter.jsx:
 Setup Data Routing with createBrowserRouter
 
+--------------------------------------------------------------------------------------------------------
 
+# Step-7 : Layouts Structure
+Each layout (layouts/) defines a common UI wrapper for a group of pages.
+
+--------------------------------------------------------------------------------------------------------
+
+#Step-8 : 

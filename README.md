@@ -80,7 +80,11 @@ AuthLayout may only render <Outlet /> + simple header.
 AdminLayout can include an admin sidebar + <Outlet />.
 
 --------------------------------------------------------------------------------------------------------
+# Step-8 Auth Screen
 
+Register and login 
+
+--------------------------------------------------------------------------------------------------------
 # Step-8 : Protected Route 
 ProtectedRoute → ensures only authorized users see certain routes.
 
@@ -99,10 +103,16 @@ Components can:
 # dispatch actions → change state
 # useSelector → read state
 
+--------------------------------------------------------------------------------------------------------
 
 # step - 10 
 Import authReducer in store store.jsx
 auth:authReducer,
 
+--------------------------------------------------------------------------------------------------------
+
 # Step -11  Api Layer
 
+--------------------------------------------------------------------------------------------------------
+
+# Step -12
